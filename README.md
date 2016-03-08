@@ -19,15 +19,15 @@ A music web application
    ```
    $ git push origin branch_name
    ```
-  - Go to your repositry on github account and select the branch that you just pushed and in right side click pull request.
+  - Go to your repository on github account and select the branch that you just pushed and in right side click pull request.
   - On the new window select main repository as a base repository and master branch as base branch.
   - Merge both branches if no conflict.
-  - if there is any conflict you have to update your local machine master branch to main repository master brnach by adding it as a new remote.
+  - if there is any conflict you have to update your local machine master branch to main repository master branch by adding it as a new remote.
   
    ```
    $ git remote add upstream main_repository_url
    ```
-  - checkout master brnach in your local machine **git checkout master**
+  - checkout master branch in your local machine **git checkout master**
   - Pull from new remote so both master branch can be merged.
   
    ```
